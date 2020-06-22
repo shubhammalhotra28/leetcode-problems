@@ -1,5 +1,5 @@
 # using o(n) space
-
+# hashmap
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         
@@ -16,8 +16,8 @@ class Solution:
         return ans
 
 
-using O(1) space :
-
+#using O(1) space :
+# using bitwise operators
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         
